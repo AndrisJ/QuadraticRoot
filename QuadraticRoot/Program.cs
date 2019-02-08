@@ -6,7 +6,9 @@ namespace QuadraticRoot
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            QuadraticRoot A = new QuadraticRoot();
+            A.CalculateQuadraticRoot(); 
+            Console.ReadKey();
         }
     }
 }
